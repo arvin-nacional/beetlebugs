@@ -6,23 +6,23 @@
     opacity: 1;
   }
 }
-.beetlebugs2,
-.communications-inc2 {
+.beetlebugs4,
+.communications-inc4 {
   position: relative;
   display: inline-block;
   flex-shrink: 0;
 }
-.beetlebugs2 {
+.beetlebugs4 {
   font-weight: 600;
   width: 258px;
   height: 36.3px;
 }
-.communications-inc2 {
+.communications-inc4 {
   font-size: 25px;
   width: 249px;
   height: 48px;
 }
-.beetlebugs-container {
+.beetlebugs-parent1 {
   height: 64px;
   display: flex;
   flex-direction: column;
@@ -30,16 +30,16 @@
   justify-content: flex-start;
   cursor: pointer;
 }
-.home3 {
+.home5 {
   text-decoration: none;
   color: inherit;
 }
-.about3,
-.home3 {
+.about7,
+.home5 {
   position: relative;
   cursor: pointer;
 }
-.home-container {
+.home-parent2 {
   width: 406px;
   display: flex;
   flex-direction: row;
@@ -47,8 +47,8 @@
   justify-content: space-between;
   font-size: 20px;
 }
-.vector-icon14,
-.vector-icon15 {
+.vector-icon28,
+.vector-icon29 {
   position: absolute;
   height: 99.22%;
   width: 100%;
@@ -60,7 +60,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon15 {
+.vector-icon29 {
   height: 80.36%;
   width: 42.64%;
   top: 19.64%;
@@ -68,16 +68,16 @@
   bottom: 0;
   left: 29.46%;
 }
-.group8 {
+.group16 {
   text-decoration: none;
   position: relative;
   width: 38.7px;
   height: 38.7px;
 }
-.group-icon2,
-.vector-icon16,
-.vector-icon18,
-.vector-icon20 {
+.group-icon4,
+.vector-icon30,
+.vector-icon32,
+.vector-icon34 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -89,9 +89,9 @@
   overflow: hidden;
   max-height: 100%;
 }
-.group-icon2,
-.vector-icon18,
-.vector-icon20 {
+.group-icon4,
+.vector-icon32,
+.vector-icon34 {
   height: 58.66%;
   width: 58.66%;
   top: 20.67%;
@@ -99,8 +99,8 @@
   bottom: 20.67%;
   left: 20.67%;
 }
-.vector-icon18,
-.vector-icon20 {
+.vector-icon32,
+.vector-icon34 {
   height: 44.96%;
   width: 54.52%;
   top: 27.39%;
@@ -108,7 +108,7 @@
   bottom: 27.65%;
   left: 23.26%;
 }
-.vector-icon20 {
+.vector-icon34 {
   height: 38.24%;
   width: 54.78%;
   top: 30.75%;
@@ -116,28 +116,28 @@
   bottom: 31.01%;
   left: 21.96%;
 }
-.group-container {
+.group-parent2 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 41px;
 }
-.hamburger-icon1 {
+.hamburger-icon2 {
   position: relative;
   width: 42px;
   height: 30px;
   display: none;
 }
-.frame-parent2,
-.navbar1 {
+.frame-parent7,
+.navbar2 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.navbar1 {
+.navbar2 {
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   flex-direction: column;
@@ -147,30 +147,30 @@
   max-width: 100%;
   font-size: 37.76px;
 }
-.schedule-a-meeting2 {
+.schedule-a-meeting3 {
   position: relative;
   line-height: 130%;
   display: inline-block;
   width: 602px;
 }
-.hero1,
-.schedule-a-meeting-frame {
+.hero2,
+.schedule-a-meeting-wrapper1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-sizing: border-box;
 }
-.schedule-a-meeting-frame {
+.schedule-a-meeting-wrapper1 {
   width: 100%;
   align-items: flex-start;
   padding: 80px 40px;
   opacity: 0;
   max-width: 1200px;
 }
-.schedule-a-meeting-frame.animate {
+.schedule-a-meeting-wrapper1.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.hero1 {
+.hero2 {
   align-self: stretch;
   overflow: hidden;
   align-items: center;
@@ -190,7 +190,7 @@
   display: inline-block;
   max-width: 1200;
 }
-.about4,
+.about8,
 .calendly,
 .effortlessly-schedule-your-nex-wrapper {
   display: flex;
@@ -204,7 +204,7 @@
   box-sizing: border-box;
   max-width: 1200px;
 }
-.about4,
+.about8,
 .calendly {
   align-self: stretch;
   background-color: #fff;
@@ -213,15 +213,15 @@
 .calendly {
   text-align: center;
 }
-.beetlebugs3 {
+.beetlebugs5 {
   position: relative;
   font-weight: 600;
 }
-.communications-inc3 {
+.communications-inc5 {
   position: relative;
   font-size: 22.97px;
 }
-.frame-a {
+.beetlebugs-parent2 {
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -230,130 +230,130 @@
   cursor: pointer;
   color: inherit;
 }
-.fast-growing-dynamic-creativ1 {
+.fast-growing-dynamic-creativ2 {
   position: relative;
   font-size: 16px;
   display: inline-block;
   width: 224px;
 }
-.group-parent1 {
+.group-parent3 {
   width: 222px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
 }
-.frame-parent4,
-.home-parent1,
-.quick-links-group {
+.frame-parent9,
+.home-parent3,
+.quick-links-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.frame-parent4 {
+.frame-parent9 {
   overflow: hidden;
   justify-content: flex-start;
   padding: 20px;
   gap: 20px;
   font-size: 34.68px;
 }
-.home-parent1,
-.quick-links-group {
+.home-parent3,
+.quick-links-container {
   justify-content: center;
 }
-.home-parent1 {
+.home-parent3 {
   gap: 19px;
   text-align: left;
   font-size: 20px;
 }
-.quick-links-group {
+.quick-links-container {
   overflow: hidden;
   padding: 20px;
   gap: 16px;
   text-align: center;
 }
-.call-sharp-icon1 {
+.call-sharp-icon2 {
   position: relative;
   width: 24px;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.div1 {
+.div2 {
   position: relative;
 }
-.call-sharp-group {
+.call-sharp-container {
   gap: 15px;
   font-family: Arial;
 }
-.call-sharp-group,
-.home-sharp-group,
-.metro-manila-philippines-container {
+.call-sharp-container,
+.home-sharp-container,
+.metro-manila-philippines-frame {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.metro-manila-philippines-container {
+.metro-manila-philippines-frame {
   width: 172px;
 }
-.home-sharp-group {
+.home-sharp-container {
   gap: 22px;
 }
-.mail-sharp-icon1 {
+.mail-sharp-icon2 {
   position: relative;
   width: 22px;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.mail-sharp-group {
+.mail-sharp-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
-.frame-parent5 {
+.contact-us-container,
+.frame-parent10 {
+  display: flex;
   flex-direction: column;
+  align-items: flex-start;
+}
+.frame-parent10 {
   justify-content: center;
   gap: 22px;
   font-size: 15px;
 }
-.contact-us-group,
-.frame-parent3,
-.frame-parent5 {
-  display: flex;
-  align-items: flex-start;
-}
-.contact-us-group {
+.contact-us-container {
   overflow: hidden;
-  flex-direction: column;
   justify-content: flex-start;
   padding: 20px;
   gap: 15px;
 }
-.frame-parent3 {
+.frame-parent8 {
   width: 100%;
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 0 80px;
   box-sizing: border-box;
   max-width: 1200px;
 }
-.beetlebugs-communcations-inc1 {
+.beetlebugs-communcations-inc2 {
   position: relative;
   font-size: 16.87px;
   font-weight: 600;
 }
-.footer1,
+.footer2,
 .schedulecalendly {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer1 {
+.footer2 {
   align-self: stretch;
   background-color: #050505;
   overflow: hidden;
@@ -373,7 +373,7 @@
   font-family: Raleway;
 }
 @media screen and (max-width: 1200px) {
-  .schedule-a-meeting-frame {
+  .schedule-a-meeting-wrapper1 {
     width: 100%;
   }
   .effortlessly-schedule-your {
@@ -386,33 +386,33 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .group-container {
+  .group-parent2 {
     display: none;
   }
-  .hamburger-icon1 {
+  .hamburger-icon2 {
     display: flex;
   }
-  .schedule-a-meeting-frame {
+  .schedule-a-meeting-wrapper1 {
     width: 100%;
   }
 }
 @media screen and (max-width: 420px) {
-  .group-container,
-  .home-container {
+  .group-parent2,
+  .home-parent2 {
     display: none;
   }
-  .hamburger-icon1 {
+  .hamburger-icon2 {
     display: flex;
   }
-  .navbar1 {
+  .navbar2 {
     width: 100vw;
   }
-  .schedule-a-meeting2 {
+  .schedule-a-meeting3 {
     width: 380px;
     font-size: 30px;
     line-height: 60px;
   }
-  .schedule-a-meeting-frame {
+  .schedule-a-meeting-wrapper1 {
     padding-left: 0;
     padding-right: 0;
     box-sizing: border-box;
@@ -426,11 +426,11 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .about4,
+  .about8,
   .calendly {
     padding: 40px;
   }
-  .frame-parent3 {
+  .frame-parent8 {
     width: auto;
     align-self: unset;
     max-width: 1200px;

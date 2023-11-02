@@ -6,23 +6,23 @@
     opacity: 1;
   }
 }
-.beetlebugs8,
-.communications-inc8 {
+.beetlebugs2,
+.communications-inc2 {
   position: relative;
   display: inline-block;
   flex-shrink: 0;
 }
-.beetlebugs8 {
+.beetlebugs2 {
   font-weight: 600;
   width: 258px;
   height: 36.3px;
 }
-.communications-inc8 {
+.communications-inc2 {
   font-size: 25px;
   width: 249px;
   height: 48px;
 }
-.beetlebugs-parent5 {
+.beetlebugs-container {
   height: 64px;
   display: flex;
   flex-direction: column;
@@ -30,16 +30,17 @@
   justify-content: flex-start;
   cursor: pointer;
 }
-.home9 {
+.beetlebugs-container,
+.home3 {
   text-decoration: none;
   color: inherit;
 }
-.about12,
-.home9 {
+.about4,
+.home3 {
   position: relative;
   cursor: pointer;
 }
-.home-parent6 {
+.home-container {
   width: 406px;
   display: flex;
   flex-direction: row;
@@ -47,8 +48,8 @@
   justify-content: space-between;
   font-size: 20px;
 }
-.vector-icon56,
-.vector-icon57 {
+.vector-icon14,
+.vector-icon15 {
   position: absolute;
   height: 99.22%;
   width: 100%;
@@ -60,7 +61,7 @@
   overflow: hidden;
   max-height: 100%;
 }
-.vector-icon57 {
+.vector-icon15 {
   height: 80.36%;
   width: 42.64%;
   top: 19.64%;
@@ -68,16 +69,16 @@
   bottom: 0;
   left: 29.46%;
 }
-.group32 {
+.group8 {
   text-decoration: none;
   position: relative;
   width: 38.7px;
   height: 38.7px;
 }
-.group-icon8,
-.vector-icon58,
-.vector-icon60,
-.vector-icon62 {
+.group-icon2,
+.vector-icon16,
+.vector-icon18,
+.vector-icon20 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -89,9 +90,9 @@
   overflow: hidden;
   max-height: 100%;
 }
-.group-icon8,
-.vector-icon60,
-.vector-icon62 {
+.group-icon2,
+.vector-icon18,
+.vector-icon20 {
   height: 58.66%;
   width: 58.66%;
   top: 20.67%;
@@ -99,8 +100,8 @@
   bottom: 20.67%;
   left: 20.67%;
 }
-.vector-icon60,
-.vector-icon62 {
+.vector-icon18,
+.vector-icon20 {
   height: 44.96%;
   width: 54.52%;
   top: 27.39%;
@@ -108,7 +109,7 @@
   bottom: 27.65%;
   left: 23.26%;
 }
-.vector-icon62 {
+.vector-icon20 {
   height: 38.24%;
   width: 54.78%;
   top: 30.75%;
@@ -116,28 +117,28 @@
   bottom: 31.01%;
   left: 21.96%;
 }
-.group-parent6 {
+.group-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: 41px;
 }
-.hamburger-icon4 {
+.hamburger-icon1 {
   position: relative;
   width: 42px;
   height: 30px;
   display: none;
 }
-.frame-parent15,
-.navbar4 {
+.frame-parent2,
+.navbar1 {
   align-self: stretch;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
-.navbar4 {
+.navbar1 {
   background-color: #fff;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   flex-direction: column;
@@ -153,7 +154,7 @@
   display: inline-block;
   width: 602px;
 }
-.hero4,
+.hero1,
 .who-we-are-wrapper {
   display: flex;
   flex-direction: column;
@@ -170,7 +171,7 @@
 .who-we-are-wrapper.animate {
   animation: 1s ease 0s 1 normal forwards fade-in;
 }
-.hero4 {
+.hero1 {
   align-self: stretch;
   overflow: hidden;
   align-items: center;
@@ -190,7 +191,7 @@
   display: inline-block;
   max-width: 1200;
 }
-.about13,
+.about5,
 .at-beetle-bugs-communication-i-wrapper {
   display: flex;
   flex-direction: row;
@@ -203,7 +204,7 @@
   box-sizing: border-box;
   max-width: 1200px;
 }
-.about13 {
+.about5 {
   align-self: stretch;
   background-color: #fff;
   padding: 80px 0;
@@ -255,7 +256,7 @@
   box-sizing: border-box;
   gap: 21px;
 }
-.frame-parent16 {
+.frame-parent3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -268,17 +269,17 @@
   text-align: justify;
   font-size: 16px;
 }
-.want-to-see3 {
+.want-to-see1 {
   align-self: stretch;
   position: relative;
   line-height: 75px;
 }
-.schedule-a-meeting5 {
+.schedule-a-meeting2 {
   position: relative;
   line-height: 28.47px;
   font-weight: 600;
 }
-.schedule-a-meeting-wrapper3 {
+.schedule-a-meeting-frame {
   border-radius: 52.73px;
   background-color: #050505;
   display: flex;
@@ -291,21 +292,21 @@
   font-size: 16.87px;
   color: #fff;
 }
-.cta-section3,
-.want-to-see-the-kind-of-magic-parent1 {
+.cta-section1,
+.want-to-see-the-kind-of-magic-group {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
 }
-.want-to-see-the-kind-of-magic-parent1 {
+.want-to-see-the-kind-of-magic-group {
   width: 100%;
   justify-content: flex-start;
   padding: 0 40px;
   gap: 70px;
   max-width: 1200px;
 }
-.cta-section3 {
+.cta-section1 {
   align-self: stretch;
   background-color: #fff;
   height: 479px;
@@ -316,15 +317,15 @@
   text-align: center;
   font-size: 45px;
 }
-.beetlebugs9 {
+.beetlebugs3 {
   position: relative;
   font-weight: 600;
 }
-.communications-inc9 {
+.communications-inc3 {
   position: relative;
   font-size: 22.97px;
 }
-.beetlebugs-parent6 {
+.frame-a {
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -333,130 +334,130 @@
   cursor: pointer;
   color: inherit;
 }
-.fast-growing-dynamic-creativ4 {
+.fast-growing-dynamic-creativ1 {
   position: relative;
   font-size: 16px;
   display: inline-block;
   width: 224px;
 }
-.group-parent7 {
+.group-parent1 {
   width: 222px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
 }
-.frame-parent18,
-.home-parent7,
-.quick-links-parent2 {
+.frame-parent5,
+.home-parent1,
+.quick-links-group {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.frame-parent18 {
+.frame-parent5 {
   overflow: hidden;
   justify-content: flex-start;
   padding: 20px;
   gap: 20px;
   font-size: 34.68px;
 }
-.home-parent7,
-.quick-links-parent2 {
+.home-parent1,
+.quick-links-group {
   justify-content: center;
 }
-.home-parent7 {
+.home-parent1 {
   gap: 19px;
   text-align: left;
   font-size: 20px;
 }
-.quick-links-parent2 {
+.quick-links-group {
   overflow: hidden;
   padding: 20px;
   gap: 16px;
   text-align: center;
 }
-.call-sharp-icon4 {
+.call-sharp-icon1 {
   position: relative;
   width: 24px;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.div4 {
+.div1 {
   position: relative;
 }
-.call-sharp-parent2 {
+.call-sharp-group {
   gap: 15px;
   font-family: Arial;
 }
-.call-sharp-parent2,
-.home-sharp-parent2,
-.metro-manila-philippines-wrapper2 {
+.call-sharp-group,
+.home-sharp-group,
+.metro-manila-philippines-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.metro-manila-philippines-wrapper2 {
+.metro-manila-philippines-container {
   width: 172px;
 }
-.home-sharp-parent2 {
+.home-sharp-group {
   gap: 22px;
 }
-.mail-sharp-icon4 {
+.mail-sharp-icon1 {
   position: relative;
   width: 22px;
   height: 24px;
   overflow: hidden;
   flex-shrink: 0;
 }
-.mail-sharp-parent2 {
+.mail-sharp-group {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
-.contact-us-parent2,
-.frame-parent19 {
-  display: flex;
+.frame-parent6 {
   flex-direction: column;
-  align-items: flex-start;
-}
-.frame-parent19 {
   justify-content: center;
   gap: 22px;
   font-size: 15px;
 }
-.contact-us-parent2 {
+.contact-us-group,
+.frame-parent4,
+.frame-parent6 {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-us-group {
   overflow: hidden;
+  flex-direction: column;
   justify-content: flex-start;
   padding: 20px;
   gap: 15px;
 }
-.frame-parent17 {
+.frame-parent4 {
   width: 100%;
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: space-between;
   padding: 0 80px;
   box-sizing: border-box;
   max-width: 1200px;
 }
-.beetlebugs-communcations-inc4 {
+.beetlebugs-communcations-inc1 {
   position: relative;
   font-size: 16.87px;
   font-weight: 600;
 }
-.about11,
-.footer4 {
+.about3,
+.footer1 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.footer4 {
+.footer1 {
   align-self: stretch;
   background-color: #050505;
   overflow: hidden;
@@ -465,7 +466,7 @@
   gap: 71px;
   color: #fff;
 }
-.about11 {
+.about3 {
   position: relative;
   background-color: #f5f5f5;
   width: 100%;
@@ -489,10 +490,10 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .group-parent6 {
+  .group-container {
     display: none;
   }
-  .hamburger-icon4 {
+  .hamburger-icon1 {
     display: flex;
   }
   .who-we-are-wrapper {
@@ -500,14 +501,14 @@
   }
 }
 @media screen and (max-width: 420px) {
-  .group-parent6,
-  .home-parent6 {
+  .group-container,
+  .home-container {
     display: none;
   }
-  .hamburger-icon4 {
+  .hamburger-icon1 {
     display: flex;
   }
-  .navbar4 {
+  .navbar1 {
     width: 100vw;
   }
   .who-we-are {
@@ -529,17 +530,17 @@
     padding-right: 0;
     box-sizing: border-box;
   }
-  .about13 {
+  .about5 {
     padding: 40px;
   }
-  .want-to-see3 {
+  .want-to-see1 {
     font-size: 30px;
     line-height: 50px;
   }
-  .schedule-a-meeting-wrapper3 {
+  .schedule-a-meeting-frame {
     scale: 0.8;
   }
-  .frame-parent17 {
+  .frame-parent4 {
     width: auto;
     align-self: unset;
     max-width: 1200px;
