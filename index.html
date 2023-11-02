@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap"
     />
     <link
       rel="stylesheet"
@@ -23,10 +23,10 @@
             <div class="communications-inc">Communications Inc.</div>
           </div>
           <div class="work-parent">
-            <div class="work" id="workText">Work</div>
-            <div class="work" id="aboutText">About</div>
-            <div class="work" id="clientsText">Clients</div>
-            <div class="work" id="contactText">Contact</div>
+            <a class="work" href="./projects.html" id="work">Work</a>
+            <div class="about" id="aboutText">About</div>
+            <div class="about" id="clientsText">Clients</div>
+            <div class="about" id="contactText">Contact</div>
           </div>
           <div class="group-parent">
             <img class="group-icon" alt="" src="./public/group.svg" />
@@ -231,9 +231,9 @@
             </div>
           </div>
         </div>
-        <div class="button" id="buttonContainer">
+        <a class="button" href="./projects.html" id="button">
           <div class="see-more">SEE MORE</div>
-        </div>
+        </a>
       </div>
       <div class="clients1">
         <div class="title1">
@@ -350,7 +350,7 @@
             />
           </div>
         </div>
-        <div class="button1" id="buttonContainer1">
+        <div class="see-more-wrapper" id="buttonContainer">
           <div class="see-more">SEE MORE</div>
         </div>
       </div>
@@ -401,10 +401,10 @@
           <div class="quick-links-parent">
             <div class="quick-links">QUICK LINKS</div>
             <div class="work-group">
-              <div class="work" id="workText1">Work</div>
-              <div class="work" id="aboutText1">About</div>
-              <div class="work" id="clientsText1">Clients</div>
-              <div class="work" id="contactText1">Contact</div>
+              <a class="work" href="./projects.html" id="work1">Work</a>
+              <div class="about" id="aboutText1">About</div>
+              <div class="about" id="clientsText1">Clients</div>
+              <div class="about" id="contactText1">Contact</div>
             </div>
           </div>
           <div class="contact-us-parent">
@@ -449,132 +449,132 @@
     </div>
 
     <script>
-      var workText = document.getElementById("workText");
-      if (workText) {
-        workText.addEventListener("click", function (e) {
-          // Please sync "WORK" to the project
+      var work = document.getElementById("work");
+      if (work) {
+        work.addEventListener("click", function (e) {
+          window.location.href = "./projects.html";
         });
       }
-      
+
       var aboutText = document.getElementById("aboutText");
       if (aboutText) {
         aboutText.addEventListener("click", function (e) {
-          // Please sync "ABOUT" to the project
+          window.location.href = "./about.html";
         });
       }
-      
+
       var clientsText = document.getElementById("clientsText");
       if (clientsText) {
         clientsText.addEventListener("click", function (e) {
           // Please sync "CLIENTS" to the project
         });
       }
-      
+
       var contactText = document.getElementById("contactText");
       if (contactText) {
         contactText.addEventListener("click", function (e) {
           // Please sync "CONTACT US" to the project
         });
       }
-      
+
       var frameContainer4 = document.getElementById("frameContainer4");
       if (frameContainer4) {
         frameContainer4.addEventListener("click", function (e) {
           // Please sync "SCHEDULE A MEETING" to the project
         });
       }
-      
+
       var frameContainer7 = document.getElementById("frameContainer7");
       if (frameContainer7) {
         frameContainer7.addEventListener("click", function (e) {
           // Please sync "WORK DETAILS" to the project
         });
       }
-      
+
       var frameContainer8 = document.getElementById("frameContainer8");
       if (frameContainer8) {
         frameContainer8.addEventListener("click", function (e) {
           // Please sync "WORK DETAILS" to the project
         });
       }
-      
+
       var frameContainer10 = document.getElementById("frameContainer10");
       if (frameContainer10) {
         frameContainer10.addEventListener("click", function (e) {
           // Please sync "WORK DETAILS" to the project
         });
       }
-      
+
       var frameContainer12 = document.getElementById("frameContainer12");
       if (frameContainer12) {
         frameContainer12.addEventListener("click", function (e) {
           // Please sync "WORK DETAILS" to the project
         });
       }
-      
+
       var frameContainer14 = document.getElementById("frameContainer14");
       if (frameContainer14) {
         frameContainer14.addEventListener("click", function (e) {
           // Please sync "WORK DETAILS" to the project
         });
       }
-      
+
       var frameContainer16 = document.getElementById("frameContainer16");
       if (frameContainer16) {
         frameContainer16.addEventListener("click", function (e) {
           // Please sync "WORK DETAILS" to the project
         });
       }
-      
+
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./projects.html";
+        });
+      }
+
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
-          // Please sync "WORK" to the project
-        });
-      }
-      
-      var buttonContainer1 = document.getElementById("buttonContainer1");
-      if (buttonContainer1) {
-        buttonContainer1.addEventListener("click", function (e) {
           // Please sync "CLIENTS" to the project
         });
       }
-      
+
       var frameContainer20 = document.getElementById("frameContainer20");
       if (frameContainer20) {
         frameContainer20.addEventListener("click", function (e) {
-          // Please sync "ABOUT" to the project
+          window.location.href = "./about.html";
         });
       }
-      
+
       var frameContainer21 = document.getElementById("frameContainer21");
       if (frameContainer21) {
         frameContainer21.addEventListener("click", function (e) {
           // Please sync "SCHEDULE A MEETING" to the project
         });
       }
-      
-      var workText1 = document.getElementById("workText1");
-      if (workText1) {
-        workText1.addEventListener("click", function (e) {
-          // Please sync "WORK" to the project
+
+      var work1 = document.getElementById("work1");
+      if (work1) {
+        work1.addEventListener("click", function (e) {
+          window.location.href = "./projects.html";
         });
       }
-      
+
       var aboutText1 = document.getElementById("aboutText1");
       if (aboutText1) {
         aboutText1.addEventListener("click", function (e) {
-          // Please sync "ABOUT" to the project
+          window.location.href = "./about.html";
         });
       }
-      
+
       var clientsText1 = document.getElementById("clientsText1");
       if (clientsText1) {
         clientsText1.addEventListener("click", function (e) {
           // Please sync "CLIENTS" to the project
         });
       }
-      
+
       var contactText1 = document.getElementById("contactText1");
       if (contactText1) {
         contactText1.addEventListener("click", function (e) {
@@ -596,10 +596,10 @@
           threshold: 0.15,
         }
       );
-      
+
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      </script>
+    </script>
   </body>
 </html>
