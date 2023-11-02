@@ -372,7 +372,7 @@
           <div class="quick-links-parent3">
             <div class="beetlebugs11">QUICK LINKS</div>
             <div class="home-parent9">
-              <a class="home11" href="./projects.html" id="home1">Home</a>
+              <a class="home11" href="./home.html" id="home1">Home</a>
               <a class="home11" href="./projects.html" id="work1">Work</a>
               <div class="about15" id="aboutText1">About</div>
               <div class="about15" id="clientsText1">Clients</div>
@@ -427,164 +427,161 @@
           window.location.href = "./home.html";
         });
       }
-      
+
       var home = document.getElementById("home");
       if (home) {
-        home.addEventListener("click", function () {
-          var anchor = document.querySelector("[data-scroll-to='homeContainer']");
-          if (anchor) {
-            anchor.scrollIntoView({ block: "start", behavior: "smooth" });
-          }
+        home.addEventListener("click", function (e) {
+          window.location.href = "./home.html";
         });
       }
-      
+
       var work = document.getElementById("work");
       if (work) {
         work.addEventListener("click", function (e) {
           window.location.href = "./projects.html";
         });
       }
-      
+
       var aboutText = document.getElementById("aboutText");
       if (aboutText) {
         aboutText.addEventListener("click", function (e) {
           window.location.href = "./about.html";
         });
       }
-      
+
       var clientsText = document.getElementById("clientsText");
       if (clientsText) {
         clientsText.addEventListener("click", function (e) {
           window.location.href = "./clients.html";
         });
       }
-      
+
       var contactText = document.getElementById("contactText");
       if (contactText) {
         contactText.addEventListener("click", function (e) {
           window.location.href = "./schedule-calendly.html";
         });
       }
-      
+
       var frameContainer5 = document.getElementById("frameContainer5");
       if (frameContainer5) {
         frameContainer5.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer6 = document.getElementById("frameContainer6");
       if (frameContainer6) {
         frameContainer6.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer7 = document.getElementById("frameContainer7");
       if (frameContainer7) {
         frameContainer7.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer8 = document.getElementById("frameContainer8");
       if (frameContainer8) {
         frameContainer8.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer9 = document.getElementById("frameContainer9");
       if (frameContainer9) {
         frameContainer9.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer10 = document.getElementById("frameContainer10");
       if (frameContainer10) {
         frameContainer10.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer11 = document.getElementById("frameContainer11");
       if (frameContainer11) {
         frameContainer11.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer12 = document.getElementById("frameContainer12");
       if (frameContainer12) {
         frameContainer12.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer13 = document.getElementById("frameContainer13");
       if (frameContainer13) {
         frameContainer13.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer14 = document.getElementById("frameContainer14");
       if (frameContainer14) {
         frameContainer14.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer15 = document.getElementById("frameContainer15");
       if (frameContainer15) {
         frameContainer15.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer16 = document.getElementById("frameContainer16");
       if (frameContainer16) {
         frameContainer16.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer17 = document.getElementById("frameContainer17");
       if (frameContainer17) {
         frameContainer17.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer18 = document.getElementById("frameContainer18");
       if (frameContainer18) {
         frameContainer18.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer19 = document.getElementById("frameContainer19");
       if (frameContainer19) {
         frameContainer19.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer21 = document.getElementById("frameContainer21");
       if (frameContainer21) {
         frameContainer21.addEventListener("click", function (e) {
           window.location.href = "./schedule-calendly.html";
         });
       }
-      
+
       var frameLink1 = document.getElementById("frameLink1");
       if (frameLink1) {
         frameLink1.addEventListener("click", function (e) {
           window.location.href = "./home.html";
         });
       }
-      
+
       var home1 = document.getElementById("home1");
       if (home1) {
         home1.addEventListener("click", function () {
@@ -594,28 +591,28 @@
           }
         });
       }
-      
+
       var work1 = document.getElementById("work1");
       if (work1) {
         work1.addEventListener("click", function (e) {
           window.location.href = "./projects.html";
         });
       }
-      
+
       var aboutText1 = document.getElementById("aboutText1");
       if (aboutText1) {
         aboutText1.addEventListener("click", function (e) {
           window.location.href = "./about.html";
         });
       }
-      
+
       var clientsText1 = document.getElementById("clientsText1");
       if (clientsText1) {
         clientsText1.addEventListener("click", function (e) {
           // Please sync "CLIENTS" to the project
         });
       }
-      
+
       var contactText1 = document.getElementById("contactText1");
       if (contactText1) {
         contactText1.addEventListener("click", function (e) {
@@ -637,10 +634,10 @@
           threshold: 0.15,
         }
       );
-      
+
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      </script>
+    </script>
   </body>
 </html>

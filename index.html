@@ -15,7 +15,7 @@
     />
   </head>
   <body>
-    <div class="home" data-scroll-to="homeContainer">
+    <div class="home">
       <div class="navbar" data-scroll-to="navbarContainer">
         <div class="frame-parent">
           <div class="beetlebugs-parent">
@@ -377,7 +377,7 @@
           <div class="quick-links-parent">
             <div class="quick-links">QUICK LINKS</div>
             <div class="home-group">
-              <a class="work" href="./projects.html" id="home1">Home</a>
+              <a class="work" id="home1">Home</a>
               <a class="work" href="./projects.html" id="work1">Work</a>
               <div class="about" id="aboutText1">About</div>
               <div class="about" id="clientsText1">Clients</div>
@@ -435,112 +435,112 @@
           }
         });
       }
-      
+
       var work = document.getElementById("work");
       if (work) {
         work.addEventListener("click", function (e) {
           window.location.href = "./projects.html";
         });
       }
-      
+
       var aboutText = document.getElementById("aboutText");
       if (aboutText) {
         aboutText.addEventListener("click", function (e) {
           window.location.href = "./about.html";
         });
       }
-      
+
       var clientsText = document.getElementById("clientsText");
       if (clientsText) {
         clientsText.addEventListener("click", function (e) {
           window.location.href = "./clients.html";
         });
       }
-      
+
       var contactText = document.getElementById("contactText");
       if (contactText) {
         contactText.addEventListener("click", function (e) {
           window.location.href = "./schedule-calendly.html";
         });
       }
-      
+
       var frameContainer4 = document.getElementById("frameContainer4");
       if (frameContainer4) {
         frameContainer4.addEventListener("click", function (e) {
           window.location.href = "./schedule-calendly.html";
         });
       }
-      
+
       var frameContainer7 = document.getElementById("frameContainer7");
       if (frameContainer7) {
         frameContainer7.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer8 = document.getElementById("frameContainer8");
       if (frameContainer8) {
         frameContainer8.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer9 = document.getElementById("frameContainer9");
       if (frameContainer9) {
         frameContainer9.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer10 = document.getElementById("frameContainer10");
       if (frameContainer10) {
         frameContainer10.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer11 = document.getElementById("frameContainer11");
       if (frameContainer11) {
         frameContainer11.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var frameContainer12 = document.getElementById("frameContainer12");
       if (frameContainer12) {
         frameContainer12.addEventListener("click", function (e) {
           window.location.href = "./project-details.html";
         });
       }
-      
+
       var button = document.getElementById("button");
       if (button) {
         button.addEventListener("click", function (e) {
           window.location.href = "./projects.html";
         });
       }
-      
+
       var buttonContainer = document.getElementById("buttonContainer");
       if (buttonContainer) {
         buttonContainer.addEventListener("click", function (e) {
           // Please sync "CLIENTS" to the project
         });
       }
-      
+
       var frameContainer15 = document.getElementById("frameContainer15");
       if (frameContainer15) {
         frameContainer15.addEventListener("click", function (e) {
           window.location.href = "./about.html";
         });
       }
-      
+
       var frameContainer16 = document.getElementById("frameContainer16");
       if (frameContainer16) {
         frameContainer16.addEventListener("click", function (e) {
           window.location.href = "./schedule-calendly.html";
         });
       }
-      
+
       var frameLink = document.getElementById("frameLink");
       if (frameLink) {
         frameLink.addEventListener("click", function () {
@@ -550,7 +550,7 @@
           }
         });
       }
-      
+
       var home1 = document.getElementById("home1");
       if (home1) {
         home1.addEventListener("click", function () {
@@ -560,28 +560,28 @@
           }
         });
       }
-      
+
       var work1 = document.getElementById("work1");
       if (work1) {
         work1.addEventListener("click", function (e) {
           window.location.href = "./projects.html";
         });
       }
-      
+
       var aboutText1 = document.getElementById("aboutText1");
       if (aboutText1) {
         aboutText1.addEventListener("click", function (e) {
           window.location.href = "./about.html";
         });
       }
-      
+
       var clientsText1 = document.getElementById("clientsText1");
       if (clientsText1) {
         clientsText1.addEventListener("click", function (e) {
           // Please sync "CLIENTS" to the project
         });
       }
-      
+
       var contactText1 = document.getElementById("contactText1");
       if (contactText1) {
         contactText1.addEventListener("click", function (e) {
@@ -603,10 +603,10 @@
           threshold: 0.15,
         }
       );
-      
+
       for (let i = 0; i < scrollAnimElements.length; i++) {
         observer.observe(scrollAnimElements[i]);
       }
-      </script>
+    </script>
   </body>
 </html>
